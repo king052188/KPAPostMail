@@ -1,4 +1,4 @@
-# KPAPostMail
+# KPAPostMail - Email Launcher for Laravel
 
 KPAPostMail is a package for **Laravel 5+** that provides helpers for some common Mail Sending techniques.
 
@@ -48,10 +48,12 @@ php artisan vendor:publish
 ```
 or
 ```shell
-php artisan vendor:publish --provider="Artesaos\SEOTools\Providers\SEOToolsServiceProvider"
+php artisan vendor:publish --provider="king052188\KPAPostMail\KPAPostMailServiceProvider"
 ```
 
 ### 5 Set up your API
+
+In order to use the `KPAPostMail`, get your Access Token from here [Sign-Up](https://postmail.kpa.ph).
 
 > `config/services.php`
 
