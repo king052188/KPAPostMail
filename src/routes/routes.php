@@ -2,7 +2,7 @@
 Route::get('/kpa/demo', function() {
   $html = "<html>
               <head>
-                  <title>Demo | KPAPostMail v1.0</title>
+                  <title>Demo | king052188/KPAPostMail dev-master</title>
               </head>
               <body style='text-align: center;'>
                 <h3 style='margin: 300px 0 0 0;'>*** Well Done! You are good to go ***</h3>
@@ -13,7 +13,14 @@ Route::get('/kpa/demo', function() {
   return $html;
 });
 
-Route::get('/kpa/services', function() {
-  return KPAPostMail::TestServices();
-  //return $kpa::TestServices(true); // show all services
+Route::get('/kpa/services/{all?}', function($all = null) {
+  $a = false;
+  if($all != null) {
+    $a = true;
+  }
+  return KPAPostMail::TestServices($a);
+});
+
+Route::get('/kpa/email', function($all = null) {
+  return KPAPostMail::TestEmail();
 });
