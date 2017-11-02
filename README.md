@@ -1,5 +1,11 @@
 # KPAPostMail - Email Launcher for Laravel
 
+[![Latest Stable Version](https://poser.pugx.org/king052188/kpapostmail/v/stable)](https://packagist.org/packages/king052188/kpapostmail)
+[![Total Downloads](https://poser.pugx.org/king052188/kpapostmail/downloads)](https://packagist.org/packages/king052188/kpapostmail)
+[![Latest Unstable Version](https://poser.pugx.org/king052188/kpapostmail/v/unstable)](https://packagist.org/packages/king052188/kpapostmail)
+[![License](https://poser.pugx.org/king052188/kpapostmail/license)](https://packagist.org/packages/king052188/kpapostmail)
+
+
 KPAPostMail is a package for **Laravel 5+** that provides helpers for some common Mail Sending techniques.
 
 ## Installation
