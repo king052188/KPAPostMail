@@ -9,6 +9,14 @@
             "email": "kingpauloaquino@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "config": {
+        "preferred-install": "dist"
+      },
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "king052188\\KPAPostMail\\": "src/"
+        }
+    }
 }
