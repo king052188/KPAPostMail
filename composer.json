@@ -1,0 +1,14 @@
+{
+    "name": "king/packages",
+    "description": "This is KPAPostMail Service",
+    "type": "Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "King Paulo Aquino",
+            "email": "kingpauloaquino@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
